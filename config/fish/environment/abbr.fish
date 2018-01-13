@@ -1,0 +1,5 @@
+abbr -a cp 'cp -i'
+abbr -a l 'ls -lah'
+abbr -a mv 'mv -i'
+abbr -a rm 'rm -i'
+abbr -a tree 'tree -C'
