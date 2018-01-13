@@ -6,5 +6,6 @@
   cb = checkout -b
   co = checkout
   d = diff
+  msg = commit -m
   sl = log --oneline --decorate  -20
   sla = log --oneline --decorate --all -20
