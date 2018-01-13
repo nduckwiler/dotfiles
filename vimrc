@@ -11,7 +11,6 @@ set ignorecase                  " turn off case-sensitive search
 set smartcase                   " turn on case-sensitive search if uppercase
 set ttyfast                     " optimize for fast terminal connections
 set wildmenu                    " enhance command-line completion
-"set noshowmode                  " hide insert status
 set hlsearch                    " highlight last used search pattern
 set number                      " show line numbers
 set hidden                      " buffers can be hidden without saving first
