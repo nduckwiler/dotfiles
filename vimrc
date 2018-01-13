@@ -16,7 +16,9 @@ set number                      " show line numbers
 set hidden                      " buffers can be hidden without saving first
 "set cursorline                  " highlight the line containing the cursor
 set confirm                     " confirm abandoning buf with unsaved changes
-"set nofoldenable                " disable folding (re-enable with `zc`)
+set foldenable                  " enable folding
+set foldmethod=indent           " use indents to determine folds
+set foldlevel=999               " start with all folds open
 set autoread                    " reload file if changed outside of vim
 set showmatch                   " show matching brackets under cursor
 set mouse=a                     " enable mouse in all modes
