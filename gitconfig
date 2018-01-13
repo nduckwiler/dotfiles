@@ -1,3 +1,10 @@
 [user]
 	name = Nick Duckwiler
 	email = nduckwiler@gmail.com
+[alias]
+  b = branch
+  cb = checkout -b
+  co = checkout
+  d = diff
+  sl = log --oneline --decorate  -20
+  sla = log --oneline --decorate --all -20
