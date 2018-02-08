@@ -38,7 +38,7 @@ set listchars=tab:>-,trail:~
 
 filetype plugin indent on       " detect filetype and lang-dependent indent
 syntax on                       " enable syntax highlighting
-colorscheme github              " color scheme
+colorscheme deus              " color scheme
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
@@ -63,7 +63,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 "Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-fugitive'
-Plug 'endel/vim-github-colorscheme'
+"Plug 'endel/vim-github-colorscheme'
+Plug 'ajmwagar/vim-deus'
 call plug#end()
 
 let g:airline_theme = 'lucius'
