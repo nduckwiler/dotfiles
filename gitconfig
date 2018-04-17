@@ -9,3 +9,4 @@
   msg = commit -m
   sl = log --oneline --decorate  -20
   sla = log --oneline --decorate --all -20
+  slag = log --oneline --decorate --all --graph -20
