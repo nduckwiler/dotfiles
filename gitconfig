@@ -6,7 +6,9 @@
   cb = checkout -b
   co = checkout
   d = diff
+  ds = diff --staged
   msg = commit -m
+  st = status
   sl = log --oneline --decorate  -20
   sla = log --oneline --decorate --all -20
   slag = log --oneline --decorate --all --graph -20
