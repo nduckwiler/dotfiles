@@ -32,6 +32,7 @@ set backspace=indent,eol,start  " allow bkspace over everything in insert mode
 set viminfo+=n~/.vim/.viminfo   " store .viminfo in ~/.vim
 set display+=lastline           " display last line, even if cut off by bottom
 set noeb vb t_vb=               " no beep, no flash for bell
+set omnifunc=syntaxcomplete#Complete "enable omni completion
 
 set list
 set listchars=tab:>-,trail:~
@@ -128,6 +129,9 @@ map <leader>np :set nopaste<CR>
 
 " Format indentation in entire file with =
 map <leader>i mmgg=G`m
+
+" Start global, interactive find and replace
+map <leader>r :%s/
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " FUNCTIONS
